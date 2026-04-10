@@ -1,0 +1,212 @@
+You are an expert game developer, frontend engineer, and UI/UX designer.
+
+Your task is to build a complete web-based "AR-Style AI Shooting Game" step-by-step.
+
+IMPORTANT:
+Do NOT generate everything at once.
+Follow each step strictly and wait for confirmation before moving to the next step.
+
+The goal is to create a highly impressive demo that simulates augmented reality and AI behavior using simple techniques.
+
+---
+
+PROJECT TITLE:
+"AR AI Combat — Smart Target System"
+
+---
+
+CORE CONCEPT:
+
+The user opens the camera and sees enemies appearing in their real-world environment. The player can shoot enemies by tapping the screen. Enemies move and react dynamically, creating the illusion of AI-driven behavior.
+
+---
+
+STEP 1: GAME DESIGN (NO CODE)
+
+Define:
+
+* Game concept in 3–4 lines
+* Enemy types (at least 2 types, e.g., Drone, Fast Target)
+* Player interaction (tap to shoot)
+* Game objective (score-based survival or elimination)
+* Fake "AI behavior" explanation (how enemies appear intelligent)
+
+Keep it concise but impactful.
+
+STOP after this step.
+
+---
+
+STEP 2: CAMERA BACKGROUND SETUP
+
+Create a full-screen camera view:
+
+* Use device camera as background
+* Ensure it fills entire screen
+* Add fallback if camera not available
+
+Overlay elements:
+
+* Center crosshair
+* HUD text:
+
+  * "Scanning environment..."
+  * "Targets incoming..."
+
+Make UI clean and futuristic.
+
+STOP after this step.
+
+---
+
+STEP 3: AR ILLUSION LAYER
+
+Simulate AR environment:
+
+* Add grid overlay (like surface detection)
+
+* Show animation:
+
+  * "Surface detected"
+  * "Deploying targets..."
+
+* Create a container for enemies positioned over camera
+
+This is visual only (no real AR tracking required)
+
+STOP after this step.
+
+---
+
+STEP 4: ENEMY SYSTEM
+
+Create enemy objects:
+
+* Spawn enemies at random positions
+* Use absolute positioning
+* Each enemy has:
+
+  * Type
+  * Speed
+  * Health (optional)
+
+Add at least 3 enemies on screen
+
+Make them visually distinct (color, size, glow)
+
+STOP after this step.
+
+---
+
+STEP 5: MOVEMENT & "AI BEHAVIOR"
+
+Implement enemy movement:
+
+* Horizontal movement (left-right)
+* Random direction changes
+* Slight vertical movement
+
+Fake AI behavior:
+
+* If player taps near enemy → enemy dodges
+* Random speed changes
+* Occasional aggressive movement toward center
+
+Keep logic simple but effective
+
+STOP after this step.
+
+---
+
+STEP 6: SHOOTING MECHANIC
+
+Implement:
+
+* Tap/click detection
+* Bullet or hit animation
+* Collision detection (tap near enemy = hit)
+
+On hit:
+
+* Remove enemy
+* Increase score
+* Show explosion effect
+
+Add sound effect placeholder
+
+STOP after this step.
+
+---
+
+STEP 7: GAME LOOP & UI
+
+Add:
+
+* Score display
+* Timer or survival counter
+* "Mission Complete" or "Game Over"
+
+Spawn new enemies over time
+
+Ensure smooth gameplay
+
+STOP after this step.
+
+---
+
+STEP 8: VISUAL POLISH
+
+Enhance experience:
+
+* Neon/glow effects
+* Smooth animations
+* Fade-in/out enemies
+* Better typography
+
+Add:
+
+* "TARGET LOCKED"
+* "ENEMY DETECTED"
+
+Make it look premium
+
+STOP after this step.
+
+---
+
+STEP 9: IMMERSION FEATURES
+
+Add:
+
+* Sound effects (shoot, hit)
+* Subtle screen shake on hit
+* Flash effect on shooting
+
+Optional:
+
+* Difficulty scaling
+
+STOP after this step.
+
+---
+
+FINAL STEP:
+
+Provide:
+
+* Complete working code (single file preferred)
+* Clean structure
+* Comments for important logic
+
+---
+
+GOAL:
+
+This should feel like a real AR + AI-powered combat system, even though it uses simple techniques.
+
+Focus on:
+
+* Visual impact
+* Smooth interaction
+* Illusion of intelligence
+
